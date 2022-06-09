@@ -17,4 +17,3 @@ ${NAME}: ${OBJ}
 
 %.o: %.c
 	gcc ${CFLAGS} -c $< -o $@
-
